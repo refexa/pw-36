@@ -1,7 +1,8 @@
 # README #
+
 Refexa has also published it on Github.
 
-### Dark matter keeper - Pyweek 36 ###
+## Dark matter keeper - Pyweek 36 ##
 
 * Pyweek 36
 * Theme: Dark Matter
@@ -10,7 +11,7 @@ Refexa has also published it on Github.
 
 ### How do I get set up? ###
 
-* Download the final package, unpack the files into a dedicated directory 
+* Download the final package, unpack the files into a dedicated directory
 * No configuration is necessary
 * Install dependencies:
   * Install Python 3.10+
@@ -37,14 +38,15 @@ grizzled space marine always a grizzled space marine. Embrace the suck, as they 
 during a dangerous mission, you must get out of enemy territory with all your assets still intact. Against overwhelming
 odds - naturally - wherever you find yourself, make it to the exit portal. May you live to boast about it beside the
 quaint retro diesel fire back at the cantina. We would disavow all knowledge, but what's the point? One glance makes
-it obvious...you're Marine. Move out!
-----
+it obvious...you're Marine. Move out
+
 In the game's startup menu find controls to adjust the music and sound volume, and switch between mouse and keyboard
 controls. Mouse is recommended.
 
 Play the first level with a little patience. It only costs you a minute to observe what's going on. Press "r" to restart
 the level if you want to get a better feel for the controls and gui. Note there is an energy bank labeled DARK MATTER,
 and an energy bank for your ship's shield.
+
 * The shield is depleted when the ship collides with dangers in the area.
 * DARK MATTER is depleted by shield regeneration, and by firing the ship's directed energy weapon.
 
@@ -69,10 +71,10 @@ There are loads of debugging features Sarge never told you about. You might enjo
 
 If you want to report a bug and try to determine the steps to reproduce it, you can jump directly to a level by
 creating game/_custom.py, and putting in it commands similar to the following:
-```
+
 class Settings:
     initial_level = 4
-```
+
 Then start the game and exercise the devil out of that level.
 
 If you say bad words during gameplay, don't put any money in the jar. There isn't enough money in the multiverse to
